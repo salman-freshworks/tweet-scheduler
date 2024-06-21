@@ -29,3 +29,13 @@
 
 en:
   hello: "Hello world"
+  welcome-message: "Welcome to ScheduledTweets app"
+  nav-bar: "Navbar"
+  home: "Home"
+  twitter-accounts: "Twitter Accounts"
+  about: "About"
+  tweets: "Tweets"
+  sign-up: "Sign up"
+  log-in: "Login"
+  log-out: "Logout"
+  connect-twitter: "Connect Twitter"

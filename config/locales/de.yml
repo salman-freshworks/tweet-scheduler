@@ -1,0 +1,14 @@
+# config/locales/de.yml
+
+de:
+  hello: "Hallo Welt"
+  welcome-message: "Willkommen bei ScheduledTweets"
+  nav-bar: "Navigationsleiste"
+  home: "Startseite"
+  twitter-accounts: "Twitter-Konten"
+  about: "Über uns"
+  tweets: "Tweets"
+  sign-up: "Registrieren"
+  log-in: "Anmelden"
+  log-out: "Abmelden"
+  connect-twitter: "Twitter verbinden"

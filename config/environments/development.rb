@@ -76,5 +76,7 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: "localhost:3000" }
 
-  config.active_job.queue_adapter = :sidekiq
+  # config.active_job.queue_adapter = :sidekiq
+
+  # config.cache_store = :mem_cache_store, 'localhost', { namespace: 'scheduled_tweets', compress: true, pool_size: 5, socket_timeout: 1.5, socket_failure_delay: 0.2 }
 end

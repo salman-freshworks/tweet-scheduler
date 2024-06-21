@@ -73,3 +73,17 @@ gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "sidekiq", "~> 7.2"
 
 gem "x", "~> 0.14.1"
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+gem 'rswag'
+gem 'rswag-api'
+gem 'rswag-ui'
+
+
+gem "dalli", "~> 3.2"
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+gem 'rails-i18n'
+gem 'brakeman', require: false

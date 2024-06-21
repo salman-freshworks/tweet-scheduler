@@ -1,0 +1,69 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/tweets":
+    get:
+      summary: list tweets
+      responses:
+        '200':
+          description: successful
+    post:
+      summary: create tweet
+      responses:
+        '200':
+          description: successful
+  "/tweets/new":
+    get:
+      summary: new tweet
+      responses:
+        '200':
+          description: successful
+  "/tweets/{id}/edit":
+    parameters:
+    - name: id
+      in: path
+      description: id
+      required: true
+      schema:
+        type: string
+    get:
+      summary: edit tweet
+      responses:
+        '200':
+          description: successful
+  "/tweets/{id}":
+    parameters:
+    - name: id
+      in: path
+      description: id
+      required: true
+      schema:
+        type: string
+    get:
+      summary: show tweet
+      responses:
+        '200':
+          description: successful
+    patch:
+      summary: update tweet
+      responses:
+        '200':
+          description: successful
+    put:
+      summary: update tweet
+      responses:
+        '200':
+          description: successful
+    delete:
+      summary: delete tweet
+      responses:
+        '200':
+          description: successful
+servers:
+- url: http://{defaultHost}
+  variables:
+    defaultHost:
+      default: localhost:3000

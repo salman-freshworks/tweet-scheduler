@@ -95,4 +95,6 @@ Rails.application.configure do
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
   config.active_job.queue_adapter = :sidekiq
+
+  # config.cache_store = :mem_cache_store, 'localhost', { namespace: 'scheduled_tweets', compress: true, pool_size: 5, socket_timeout: 1.5, socket_failure_delay: 0.2 }
 end

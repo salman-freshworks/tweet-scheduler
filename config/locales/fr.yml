@@ -1,0 +1,12 @@
+fr:
+  hello: "Bonjour le monde"
+  welcome-message: "Bienvenue dans l'application ScheduledTweets"
+  nav-bar: "Barre de navigation"
+  home: "Accueil"
+  twitter-accounts: "Comptes Twitter"
+  about: "À propos"
+  tweets: "Tweets"
+  connect-twitter: "Connectez Twitter"
+  sign-up: "S'inscrire"
+  log-in: "se connecter"
+  log-out: "Se déconnecter"

@@ -1,0 +1,14 @@
+# config/locales/ar.yml
+
+ar:
+  hello: "مرحباً بالعالم"
+  welcome-message: "مرحباً بكم في تطبيق ScheduledTweets"
+  nav-bar: "شريط التنقل"
+  home: "الصفحة الرئيسية"
+  twitter-accounts: "حسابات تويتر"
+  about: "حول"
+  tweets: "تغريدات"
+  sign-up: "التسجيل"
+  log-in: "تسجيل الدخول"
+  log-out: "تسجيل الخروج"
+  connect-twitter: "ربط تويتر"
